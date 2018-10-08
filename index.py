@@ -5,10 +5,6 @@ from threading import Timer
 import re
 import sys
 
-consumer_key = 'ZP4C3Opa5b36NtbSFax4ASRbc'
-consumer_secret = '0WWcHkim4cLLLlFQk00H18WMhRcJs3IpCK0QqiG40HKAhzxXiA'
-access_token = '976482866396884992-ZiLeuXJvWxO6rWAO7ElEGgdgjUwJ6Ns'
-access_token_secret = 'mqbbEProMR9LjZKVpDOqHwPqcyq0kMjnlUrko8g2wfmoA'
 
 if __name__ == "__main__":
     auth = tweepy.OAuthHandler(consumer_key,consumer_secret)
